@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.kotlinAndroid)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -44,5 +45,11 @@ dependencies {
     implementation(libs.compose.ui.tooling.preview)
     implementation(libs.compose.material3)
     implementation(libs.androidx.activity.compose)
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
     debugImplementation(libs.compose.ui.tooling)
+    implementation ("androidx.navigation:navigation-compose:2.7.7")
+    implementation ("androidx.compose.material:material-icons-core:1.1.0")
+    implementation ("androidx.compose.material:material-icons-extended:1.1.0")
+
 }

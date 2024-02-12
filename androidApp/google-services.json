@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "58394336340",
+    "project_id": "chatverse-3e960",
+    "storage_bucket": "chatverse-3e960.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58394336340:android:6391db03d463c3598b61c1",
+        "android_client_info": {
+          "package_name": "com.example.chatverse.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58394336340-jg51d0vblhtukd54225ohsm50oohv6sq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatverse.android",
+            "certificate_hash": "9cc8711f034e60b7db987dcf07cf47f32de50826"
+          }
+        },
+        {
+          "client_id": "58394336340-5gv9p413dhsb54igfsuhnhu9rlj5n2hh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaz_OEDEnHMNqHcE9oRwsb3tw9kob1S2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58394336340-5gv9p413dhsb54igfsuhnhu9rlj5n2hh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

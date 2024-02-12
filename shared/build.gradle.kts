@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
+    id("com.google.gms.google-services")
 }
 
 kotlin {
@@ -39,4 +40,8 @@ android {
     defaultConfig {
         minSdk = 24
     }
+}
+dependencies {
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
 }
